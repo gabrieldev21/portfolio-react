@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} min-h-screen min-w-screen bg-gradient-to-r from-cyan-500 to-indigo-500`}
+        className={`${inter.className} min-h-screen min-w-screen bg-blue-midnight`}
       >
         <Header />
         <main className="[&>main]:flex">{children}</main>
